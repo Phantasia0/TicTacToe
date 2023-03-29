@@ -8,7 +8,7 @@ const Board = ({ squares, onClick }) => {
   };
 
   return (
-    <div className="inner">
+    <div className="board-wrapper">
       <div className="board-row">
         {renderSquare(0)}
         {renderSquare(1)}

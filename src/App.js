@@ -55,7 +55,9 @@ function App() {
     const desc = idx ? "Go to move #" + idx : "Go to game start";
     return (
       <li key={idx}>
-        <button onClick={() => jumpTo(idx)}>{desc}</button>
+        <button className="move-button" onClick={() => jumpTo(idx)}>
+          {desc}
+        </button>
       </li>
     );
   });

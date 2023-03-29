@@ -70,6 +70,8 @@ function App() {
   return (
     <div className="game">
       <div className="game-board">
+        <div className="game-title">Tic Tac Toe</div>
+
         <Board
           squares={current.squares}
           onClick={(i) => {
